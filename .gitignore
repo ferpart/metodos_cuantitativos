@@ -1,5 +1,13 @@
-# Created by https://www.gitignore.io/api/python
-# Edit at https://www.gitignore.io/?templates=python
+
+# Created by https://www.gitignore.io/api/code,python
+# Edit at https://www.gitignore.io/?templates=code,python
+
+### Code ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
@@ -106,11 +114,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-### Code ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-
-# End of https://www.gitignore.io/api/python
+# End of https://www.gitignore.io/api/code,python
