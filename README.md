@@ -61,34 +61,26 @@ This is a compillation of my solutions for the problems on [10 Days of Statistic
 
 #### Day 3: Conditional Probability
 
-    Approach is to reduce the sample space so that it only contains events where one child is a boy 
-    S(boy) = {BB, GB, BG}. If we consider event E to be the event in which both children are boys (so E = {BB}), 
-    we can find the probability as a fraction of the reduced sample space:
     Because we already know that at least one of the children is a boy we reduce the sample space to 
     S = {BB, GB, BG}, we use E as the event in which all children are boys (E = {BB]). The probability is found 
     with the following:
-                        P(E) = |E|/|S| = 1/3.
+                                            P(E) = |E|/|S| = 1/3.
 
 #### Day 3: Cards of the Same Suit
 
-    The first card drawn will be from any of the 4 suits and there will be 51 cards left in the deck, 
-    only 12 of which match the drawn card's suit. The probability of the second card being of the same suit is:
     As we have already drawn the first card of the specified suit, we will have 12 cards of that suit left, as 
     well as only 51 cards left in the deck. If we draw another card of the same suit we'll have E = 12 and S = 51.
     The probability is calculated with the following:
-                        P(E) = 12/51 = 4/17.
+                                            P(E) = 12/51 = 4/17.
 
 #### Day 3: Drawing Marbles
 
-    Since already 1 ball is choosen, there are 6 balls left. We need to pick up the blue ball, 
-    where there are 4 blue coloured balls. The probabilty is 
     Since 1 of the marbles (red) has already been picked we are left with 6 marbles from the
     original 7 of which there are now only 2 red. We now need to retrieve another marble (blue),
     for which we have 4 on the bag. This leaves us with E = 4 and S = 6. The probability is
     calculated with the following:
-                        P(E) = 4/6 = 2/3.
+                                            P(E) = 4/6 = 2/3.
                         
-
 ### Day 4
 ---
 
