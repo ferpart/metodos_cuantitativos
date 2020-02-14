@@ -64,8 +64,9 @@ This is a compillation of my solutions for the problems on [10 Days of Statistic
     Approach is to reduce the sample space so that it only contains events where one child is a boy 
     S(boy) = {BB, GB, BG}. If we consider event E to be the event in which both children are boys (so E = {BB}), 
     we can find the probability as a fraction of the reduced sample space:
-    Because we already know that at least one of the children is a boy we reduce the sample space to S = {BB, GB, BG}, 
-    we use E as the event in which all children are boys (E = {BB]). The probability is found with the following:
+    Because we already know that at least one of the children is a boy we reduce the sample space to 
+    S = {BB, GB, BG}, we use E as the event in which all children are boys (E = {BB]). The probability is found 
+    with the following:
                         P(E) = |E|/|S| = 1/3.
 
 #### Day 3: Cards of the Same Suit
