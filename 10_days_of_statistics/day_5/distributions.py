@@ -11,7 +11,7 @@ def poisson_distribution(act_num_success: int, avg_num_success: float):
     return distribution
 
 def special_poisson_distribution(avg_num_success: float):
-    """Method used only in special cases of the poisson distribution where we 
+    """Method used only in special cases of the poisson distribution where we
     have some poisson random variable X, we ler E[X] be the expectation of X,
     so we use this to find the E[X^2] (Expectation of X squared)"""
 
