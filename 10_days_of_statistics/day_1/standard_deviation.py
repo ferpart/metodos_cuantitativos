@@ -1,4 +1,4 @@
-from math import sqrt, pow
+from math import sqrt
 
 n = int(input() or "0")
 x = input() or "0"
