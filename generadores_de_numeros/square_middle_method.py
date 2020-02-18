@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Python implementation of the square middle method seen in class"""
 
-def randomizer(seed_value: str):
+def generator(seed_value: str):
     """method that contains the formula to obtain a randomized value via the
     square middle method"""
 
@@ -20,10 +20,11 @@ def randomizer(seed_value: str):
 
 def main():
     """main method for the class"""
-    seed_value = input()
-    print()
+
+    seed_value = 154    #initialization value for the method
+
     for _ in range(13):
-        seed_value = randomizer(seed_value)
+        seed_value = generator(str(seed_value))
 
 if __name__ == "__main__":
     main()

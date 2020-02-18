@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Python implementation of the middle product method seen in class"""
 
-def randomizer(seed_value_a: str, seed_value_b: str):
+def generator(seed_value_a: str, seed_value_b: str):
     """method that contains the formula to obtain a randomized value via the
     middle product method"""
     print(seed_value_a)
@@ -24,12 +24,11 @@ def randomizer(seed_value_a: str, seed_value_b: str):
 
 def main():
     """main method for the class"""
-    seed_values = []
-    seed_values.append(input())
-    seed_values.append(input())
+
+    seed_values = [151, 155] #initialization values for the method
 
     for _ in range(19):
-        seed_values = randomizer(seed_values[0], seed_values[1])
+        seed_values = generator(str(seed_values[0]), str(seed_values[1]))
 
 if __name__ == "__main__":
     main()
