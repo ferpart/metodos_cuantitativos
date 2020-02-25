@@ -14,7 +14,7 @@ ___
 
 This section contains the solutions for [HackerRank's 10 Days of Statistics](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics) tutorial done completely in python. The previous has the exception of not having solutions for the mini-quizzes, as they did not require coding.
 
-### [Homeworks](https://github.com/ferpart/metodos_cuantitativos/tree/master/homeworksm) ###
+### [Homeworks](https://github.com/ferpart/metodos_cuantitativos/tree/master/homeworks) ###
 ___
 
 This section contains homeworks done during class. They will also be all coded with python.
