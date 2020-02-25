@@ -16,9 +16,11 @@ def main():
 
     n_bins = 100
     v_rwidth = 0.90
+    color_1 = "blue"
+    color_2 = "yellow"
 
-    plt.hist(muller_values, bins=n_bins, rwidth=v_rwidth, color="blue")
-    plt.hist(inverse_values, bins=n_bins, rwidth=v_rwidth, color="yellow")
+    plt.hist(muller_values, bins=n_bins, rwidth=v_rwidth, color=color_1)
+    plt.hist(inverse_values, bins=n_bins, rwidth=v_rwidth, color=color_2)
 
     plt.show()
 
