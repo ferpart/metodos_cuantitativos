@@ -8,6 +8,7 @@ This is a repository used solely for the storage of homeworks ore assignments fo
 * [homeworks](#homeworks)
     * [generadores de numeros](#generadores-de-numeros)
     * [box muller y transformada inversa](#box-muller-y-transformada-inversa)
+    * [generador de melodias](#generador-de-melodias)
 * [classwork](#classwork)
     * [monte carlo](#monte-carlo)
 
@@ -25,9 +26,13 @@ This section contains homeworks done after class. They will also be all coded wi
 
 This homework consists of using pre established methods to create a random assortment of numbers.
 
-#### [Box Muller y Transformada Inversa](https://github.com/ferpart/metodos_cuantitativos/tree/master/homeworks/box_muller_y_transformada_inversa) ####
+#### [Box Muller y Transformada Inversa](box_muller_y_transformada_inversa) ####
 
-This homewor consists in using random nombers, normalizing them, and finaly graphing them using the [Box Muller](https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform) and the [Inverse](https://en.wikipedia.org/wiki/Inverse_transform_sampling) transformation methods.
+This homework consists in using random numbers, normalizing them, and finally graphing them using the [Box Muller](https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform) and the [Inverse](https://en.wikipedia.org/wiki/Inverse_transform_sampling) transformation methods.
+
+#### [Generador de Numeros](https://github.com/ferpart/metodos_cuantitativos/tree/master/homeworks/generadores_de_numeros) ####
+
+This homwork consists of using the [Markov Chains](https://en.wikipedia.org/wiki/Markov_chain) to generate a melody based on pre-established probabilities. At least an octave had to be utilized.
 
 ### [Classwork](https://github.com/ferpart/metodos_cuantitativos/tree/master/classwork) ###
 ___
