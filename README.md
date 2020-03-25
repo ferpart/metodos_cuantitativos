@@ -30,7 +30,7 @@ This homework consists of using pre established methods to create a random assor
 
 This homework consists in using random numbers, normalizing them, and finally graphing them using the [Box Muller](https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform) and the [Inverse](https://en.wikipedia.org/wiki/Inverse_transform_sampling) transformation methods.
 
-#### [Generador de Numeros](https://github.com/ferpart/metodos_cuantitativos/tree/master/homeworks/generadores_de_numeros) ####
+#### [Generador de Melodias](https://github.com/ferpart/metodos_cuantitativos/tree/master/homeworks/generadores_de_numeros) ####
 
 This homwork consists of using the [Markov Chains](https://en.wikipedia.org/wiki/Markov_chain) to generate a melody based on pre-established probabilities. At least an octave had to be utilized.
 
