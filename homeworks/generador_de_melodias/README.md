@@ -15,7 +15,6 @@ To install run the following code:
 ```bash
 pip3 install datascience
 pip3 install playsound
-pip3 install numpy
 ```
 
 ## How to run ##
